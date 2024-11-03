@@ -39,6 +39,8 @@ class Queue<T> {
         while (current != null) {
             System.out.println(current.data);
             current = current.next;
+            System.out.println("");
         }
     }
+    
 }
