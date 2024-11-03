@@ -19,7 +19,7 @@ class BookNode {
 
     @Override
     public String toString() {
-        return "Book [Code=" + bcode + ", Title=" + title + ", Author=" + author + ", ISBN=" + isbn +
-               ", Publisher=" + publisher + ", Quantity=" + quantity + ", Lended=" + lended + ", Price=" + price + "]";
+        return "Book [Code=" + bcode + ", Title=" + title + ", Author=" + author + ", ISBN=" + isbn
+                + ", Publisher=" + publisher + ", Quantity=" + quantity + ", Lended=" + lended + ", Price=" + price + "]";
     }
 }

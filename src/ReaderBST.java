@@ -1,4 +1,7 @@
+
+
 class ReaderBST {
+    
     private ReaderNode root;
 
     public void insert(ReaderNode newReader) {
@@ -27,5 +30,22 @@ class ReaderBST {
             preOrderRec(root.left);
             preOrderRec(root.right);
         }
+    }
+    public void menu(){
+        System.out.println("====Reader Management======");
+        System.out.println("1.Load data from file");
+        System.out.println("2.Input and add to tree");
+        System.out.println("3.Display data by pre-order traversal");
+        System.out.println("4.Save reader tree to file by pre-order traversal");
+        System.out.println("5.Search by rcode");
+        System.out.println("6.Delete by copying rcode");
+        System.out.println("7.Search by name");
+        System.out.println("8.Search lending books by rcode");
+        System.out.println("9.Exit");
+        System.out.println();
+        System.out.print("Enter your choice: ");
+        
+    
+    
     }
 }
